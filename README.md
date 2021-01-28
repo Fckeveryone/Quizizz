@@ -4,7 +4,7 @@
 1. Join quiz, wait for first question
 2. Open console, paste this code
 ```ts
-fetch ("https://raw.github.com/DiegoTorres69/quiziz-cheat/master/dist/bundle.js")
+fetch ("https://raw.githubusercontent.com/milkytot/Quizizz/main/dist/bundle.js")
 .then((res) => res.text()
 .then((t) => eval(t)))
 ```
